@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/* body {
+    background-image: url(background/b031.gif);
+    background-repeat: repeat-x repeat-y;
+} */
+ 
+/* body {
+    background-image: url(background/sor0080.jpg);
+    background-repeat: no-repeat;
+    background-size: 90% auto;
+    background-position: center;
+    background
+}  */
+
+
+body:before{
+    content:"";
+    display:block;
+    position:fixed;
+    top:0;
+    left:0;
+    margin:0;
+    z-index:-1;
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(0deg,  rgba(18, 204, 179, 0.411), rgba(20, 90, 78, 0.342)),
+        url(https://drive.google.com/uc?export=view&id=1vLospyE25baWhwJxKZEtDT3DwFxj2nC3);
+    background-size:cover;
+     /*背景画像の位置*/
+    background-position:center center;
+}
+
+html{
+    font-size: 100%;
+}
+
+.page-header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-nav{
+    display: flex;
+    line-height:1.7;
+    text-transform:uppercase;
+    list-style: none;
+    color: burlywood;
+}
+.main-nav li{
+    margin: 0 10px 0 10px;
+}
+.main-nav a{
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1em;
+    font-size: 5vw;
+    color: aliceblue;
+    border-bottom: 6px double #f6f0f6;
+}
+p{
+    text-align: center;
+    color: aliceblue;
+}
+#index {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.contents-index2 a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
